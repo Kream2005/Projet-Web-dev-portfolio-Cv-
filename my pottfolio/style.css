@@ -28,12 +28,16 @@ html {
 }
 
 .nav-links {
-    font-size: 25px;
+    font-size:20px;
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
     margin-left: 50%;
+    position : fixed;
+    background-color: white;
+    z-index: 1000;
+    border-radius: 15px;
 }
 
 .nav-links a {
